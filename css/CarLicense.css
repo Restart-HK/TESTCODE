@@ -14,13 +14,16 @@ div#TopicBanner {
 	width: 100%;
 	height: 100vh;
 	text-align: center;
-	background:  no-repeat linear-gradient(
+	background: linear-gradient(
 	      rgba(0, 0, 0, 0.65), 
 	      rgba(0, 0, 0, 0.65)
 	    ), url(../assets/img/Banner/CarLicenseBanner.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .Topic {
@@ -52,10 +55,14 @@ div#TopicBanner {
 
 	.Topic {
 		font-family: 'Black Ops One', cursive;
-		font-size: 60px;
+		font-size: 45px;
 		color: white;
 		mix-blend-mode: difference; /*----透底-----*/
 		padding-top: 35%;
+	}
+
+	.TopicText {
+		font-size: 20px;
 	}
 
 	.TopicButton {
@@ -73,6 +80,43 @@ div#TopicBanner {
 /* ------------------------------ Top Background Section ----------------------------*/
 
 div#SearchBody {
+	font-family: 'Noto Sans TC', sans-serif;
 	background: black;
-	height: 100vh;
+}
+
+
+/* ------------------------------ Table Section ----------------------------*/
+input {
+	border-style:solid;
+	border-color: black;
+	background: #dddddd;
+	color: #000;
+}
+input::placeholder {
+  color: black;
+  font-size: 16px;
+}
+
+table {
+  font-family: 'Noto Sans TC', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #232323;
+  color: #fff;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
 }
