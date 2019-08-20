@@ -14,7 +14,7 @@ div#TopicBanner {
 	width: 100%;
 	height: 100vh;
 	text-align: center;
-	background: linear-gradient(
+	background: no-repeat linear-gradient(
 	      rgba(0, 0, 0, 0.65), 
 	      rgba(0, 0, 0, 0.65)
 	    ), url(../assets/img/Banner/CarLicenseBanner.jpg);
@@ -58,7 +58,7 @@ div#TopicBanner {
 		font-size: 45px;
 		color: white;
 		mix-blend-mode: difference; /*----透底-----*/
-		padding-top: 35%;
+		padding-top: 45%;
 	}
 
 	.TopicText {
