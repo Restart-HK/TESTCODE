@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+/*-----font-family: 'Black Ops One', cursive;------*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*-----font-family: 'Noto Sans TC', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+/*-----font-family: 'Alfa Slab One', cursive;------*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+/*-----font-family:'Ubuntu', sans-serif;------*/
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+div#HongKongersDiv {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	overflow: hidden;
+	background: no-repeat center center fixed linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/Banner/HongKongers.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+div#HongKongersDiv .HongKongers {
+	font-family: 'Black Ops One', cursive;
+	font-size: 100px;
+	color: white;
+	mix-blend-mode: difference; /*----透底-----*/
+	padding-top: 15%;
+	padding-left: 6px;
+}
+
+div#HongKongersDiv .TopTyped {
+	font-size: 24px;
+	width: 100%;
+	height: 260px;
+	pointer-events: none;
+	font-family: 'Electrolize', sans-serif;
+	color: #fff;
+	padding-left: 3px;
+}
+
+div#HongKongersDiv .TopTag {
+	padding-left: 8px;
+}
+
+div#HongKongersDiv .TopicButton {
+	width: 70px;
+	height: 83pX;
+	padding-bottom: 10px;
+}
+
+div#HongKongersDiv .TopicButton:hover {
+	-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+}
+
+div#HongKongersDiv .TopScrollButton {
+	animation: MoveUpDown 1.5s linear infinite;
+	width: 60px;
+	height: 60px;
+	left:0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+}
+@keyframes MoveUpDown {
+	0%, 100% {bottom: 0;}
+	50% {bottom: 25px;}
+}
+
+@media (max-width: 768px){
+
+	div#HongKongersDiv {
+		text-align: left;
+	}
+
+	div#HongKongersDiv .HongKongers {
+		font-family: 'Black Ops One', cursive;
+		font-size: 42px;
+		color: white;'
+		mix-blend-mode: difference; /*----透底-----*/
+		padding-top: 45%;
+	}
+
+	div#HongKongersDiv .TopTyped {
+		font-size: 18px;
+		height: 200px
+	}
+
+	div#HongKongersDiv .TopicButton {
+		width: 45px;
+		height: 58pX;
+		padding-bottom: 10px;
+	}
+
+	div#HongKongersDiv .TopScrollButton {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+
+div#SearchBody {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: black;
+}
+
+
+/* ------------------------------ Table Section ----------------------------*/

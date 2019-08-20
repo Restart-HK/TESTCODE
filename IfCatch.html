@@ -3,21 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>Restart HK</title>
+	<title>LAW Defense</title>
 	<!------------------------------ CSS ------------------------------->
 	<link rel="stylesheet" type="text/css" href="FontAwesome/css/all.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"></link>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 	<!------------------------------ BODY CSS ------------------------------->
-	<link rel="stylesheet" type="text/css" href="css/Style.css">
+	<link rel="stylesheet" type="text/css" href="css/IfCatch.css">
 	<link rel="stylesheet" type="text/css" href="css/Footer.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css"></link>
 
 	<!------------------------------ JS ------------------------------->
-	<script type="text/javascript" src= "js/typed.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<!------------------------------ BODY JS ------------------------------->
 
 </head>
 
@@ -25,54 +24,38 @@
 <body>
 	<!------------------------------ NAV ------------------------------->
 
-	<!------------------------------ BodyDetail ------------------------------->
-		<!------------------------------ Top Banner ------------------------------->
-		<div id="HongKongersDiv">
-			<div class="HongKongers">HONG KONGERS
-				<div class="TopTyped"><div class="TopTypedInfo"></div><br><br></div>	
+<!------------------------------ BodyDetail ------------------------------->
+	<!------------------------------ BodyHome ------------------------------->
+	<div id="TopicBanner">
+			<div class="Topic">LAW DEFENSE</div>
+				<br>
+			<div class="TopicText">
+				<b>- 無人能預計會否被捕, 預防勝於治療 -<br>- 祝願大家用唔著以下既內容 -<br></b>
+				<br>
 			</div>
-
-				<div class="TopTag">	
-					<span>
-						<span data-toggle="modal" data-target="#realtimelink">
-							<img class="TopicButton" src="assets/img/Button/實時.png">
-						</span>
-					</span>
-					<span>
-						<a href="action.html"><img class="TopicButton" src="assets/img/Button/行動.png"></a>
-					</span>
-					<span>
-						<a href="project.html"><img class="TopicButton" src="assets/img/Button/專案.png"></a>
-					</span>
-					<span>
-						<a href="strategy.html"><img class="TopicButton" src="assets/img/Button/戰略.png"></a>
-					</span>
-					<span>
-						<a href="gallery.html"><img class="TopicButton" src="assets/img/Button/文宣.png"></a>
-					</span>
-					<span>
-						<a href="rules.html"><img class="TopicButton" src="assets/img/Button/守則.png"></a>
-					</span>
-					<span>
-						<a href="Partnership.html"><img class="TopicButton" src="assets/img/Button/分工.png"></a>
-					</span>
-					<span>
-						<a href="http://s000.tinyupload.com/?file_id=31955489203727282446" target="_blank"><img class="TopicButton" src="assets/img/Button/備份.png"></a>
-					</span>
-					<span>
-						<a href="statement.html"><img class="TopicButton" src="assets/img/Button/聲明.png"></a>
-					</span>
-					<span data-toggle="modal" data-target="#PAY">
-						<img class="TopicButton" src="assets/img/Button/DONATE.png">
-					</span>
+			<div>
+				<span>
+					  <a href="http://t.me/judgehk"><img src="assets/img/Button/投稿.png" class="TopicButton"></a>
+				</span>
+			</div>
+	</div>
+	<!------------------------------ BodyData ------------------------------->
+	<div id="LawGraphic">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="assets/img/Banner/IfCatch/我無野講.jpg" data-group="1" class="galleryItem">
+						<img src="assets/img/Banner/IfCatch/我無野講.jpg" alt="我無野講" class="ImgResponsive">
+					</a>
 				</div>
-
-
-				<a href="#bannersilder"><img class="TopScrollButton" style="filter: invert(100%);" src="assets/img/Button/down-arrow.png"></a>
-		</div>	
-
-		<!------------------------------ Banner Silder ------------------------------->
-
+				<div class="col-md-12">
+					<a href="assets/img/Banner/IfCatch/被捕需知.jpg" data-group="1" class="galleryItem">
+						<img src="assets/img/Banner/IfCatch/被捕需知.jpg" alt="被捕需知" class="ImgResponsive">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>		
 
 
 	<!------------------------------ FOOTER ------------------------------->
@@ -149,7 +132,7 @@
 							<br>
 						<h5>QR Code</h5>
 						<div style="text-align: left; margin-left: -5px;">
-							<img src="assets/img/Button/Button/RestartHK.png" style="width: 150px;">
+							<img src="assets/img/Button/RestartHK.png" style="width: 150px;">
 						</div>
 					</div>
 
@@ -177,15 +160,38 @@
 
 	<!------------------------------ Script ------------------------------->
 	<script>
-	/* ------------------------ Script --------------------------- */
-		/* ------------------------ TypeD --------------------------- */
-		var TopTypedInfo = new Typed('.TopTypedInfo', {
-   			strings: ['We saw all these people die,<br>and we keep telling everybody<br>they should move on...<br>Some do...<br><br>BUT NOT US!!!!'],
-    		typeSpeed: 50,
-    		backSpeed: 0,
-    		fadeOut: true,
-    		loop: false,
-  			});
+		/* ------------------------ Scroll via Href ID--------------------------- */
+		$('a[href*="#"]').on('click', function (e) {
+		    e.preventDefault();
+
+		    $('html, body').animate({
+		        scrollTop: $($(this).attr('href')).offset().top
+		    }, 300, 'linear');
+		});
+		/* ------------------------ IMG Pop Up--------------------------- */
+		var groups = {};
+		$('.galleryItem').each(function() {
+		  var id = parseInt($(this).attr('data-group'), 10);
+		  
+		  if(!groups[id]) {
+		    groups[id] = [];
+		  } 
+		  
+		  groups[id].push( this );
+		});
+
+
+		$.each(groups, function() {
+		  
+		  $(this).magnificPopup({
+		      type: 'image',
+		      closeOnContentClick: true,
+		      closeBtnInside: false,
+		      gallery: { enabled:true }
+		  })
+		  
+		});
+
 	</script>
 
 </body>

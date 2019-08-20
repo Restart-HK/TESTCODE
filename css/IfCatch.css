@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+/*-----font-family: 'Black Ops One', cursive;------*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*-----font-family: 'Noto Sans TC', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+/*-----font-family: 'Alfa Slab One', cursive;------*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+/*-----font-family:'Ubuntu', sans-serif;------*/
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+div#TopicBanner {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	overflow: hidden;
+	background: no-repeat center center fixed linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/Banner/IfCatch.png);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.Topic {
+	font-family: 'Black Ops One', cursive;
+	font-size: 80px;
+	color: white;
+	mix-blend-mode: difference; /*----透底-----*/
+	padding-top: 15%;
+}
+
+.TopicText {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 26px;
+	color: white;
+	mix-blend-mode: difference; /*----透底-----*/
+}
+
+.TopicButton {
+	width: 7%;
+}
+
+.TopicButton:hover {
+	-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+    width: 6%;
+}
+
+@media (max-width: 768px){
+
+	.Topic {
+		font-family: 'Black Ops One', cursive;
+		font-size: 45px;
+		color: white;
+		mix-blend-mode: difference; /*----透底-----*/
+		padding-top: 45%;
+	}
+
+	.TopicText {
+		font-size: 20px;
+	}
+
+	.TopicButton {
+	width: 16%;
+	}
+
+	.TopicButton:hover {
+		-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+	    filter: blur(2px);
+	    width: 15%;
+	}
+}
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+
+div#LawGraphic {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: black;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.ImgResponsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------------------ Table Section ----------------------------*/
