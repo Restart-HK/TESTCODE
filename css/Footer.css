@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+/*-----font-family: 'Black Ops One', cursive;------*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*-----font-family: 'Noto Sans TC', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+/*-----font-family: 'Alfa Slab One', cursive;------*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+/*-----font-family:'Ubuntu', sans-serif;------*/
+
+/* ------------------------------ footer Section ----------------------------*/
+footer#Footer {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: center;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.85), 
+      rgba(0, 0, 0, 0.85)
+    ), url(../assets/img/Banner/footerbanner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer h5 {
+	text-align: left;
+	font-size: 20px;
+	color: #fff;
+}
+
+footer .FooterTextLeft {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 150px;
+	font-size: 16px;
+	line-height: 25px;
+	width: 430px;
+	text-align: left;
+	color:#d9d9d9;
+}
+footer .FooterNoPadding{
+	padding-top: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+@media (max-width: 1024px){
+	footer .FooterTextLeft {
+		width: 100%;
+		text-align: left;
+	}
+}
+
+footer .FooterEnd {
+	color: #fff;
+	border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgba(255,255,255,0.31);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 30px 0px 30px 0px;
+}
