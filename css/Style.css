@@ -84,7 +84,7 @@ div#HongKongersDiv .TopScrollButton {
 		font-size: 42px;
 		color: white;'
 		mix-blend-mode: difference; /*----透底-----*/
-		padding-top: 45%;
+		padding-top: 15%;
 	}
 
 	div#HongKongersDiv .TopTyped {
@@ -93,7 +93,7 @@ div#HongKongersDiv .TopScrollButton {
 	}
 
 	div#HongKongersDiv .TopicButton {
-		width: 45px;
+		width: 49px;
 		height: 58pX;
 		padding-bottom: 10px;
 	}
