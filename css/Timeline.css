@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+/*-----font-family: 'Black Ops One', cursive;------*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*-----font-family: 'Noto Sans TC', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+/*-----font-family: 'Alfa Slab One', cursive;------*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+/*-----font-family:'Ubuntu', sans-serif;------*/
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+hr.UnderLineB {
+  border-top: 2px solid black;
+  width: 60%;
+}
+hr.UnderLineW {
+  border-top: 2px solid white;
+  width: 60%;
+}
+
+div#TopicBanner {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	overflow: hidden;
+	background: no-repeat center center fixed linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/Banner/TimeLine.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.Topic {
+	padding-top: 15%;
+}
+
+.Topic h1{
+	font-family: 'Black Ops One', cursive;
+	font-size: 80px;
+	color: white;
+}
+
+.TopicText {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 26px;
+	color: white;
+}
+
+.TopicButton {
+	width: 7%;
+}
+
+.TopicButton:hover {
+	-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+    width: 6%;
+}
+
+@media (max-width: 768px){
+
+	hr.UnderLineW {
+	  border-top: 2px solid white;
+	  width: 90%;
+	}
+
+	.Topic {
+		padding-top: 35%;
+	}
+
+	.Topic h1{
+		font-family: 'Black Ops One', cursive;
+		font-size: 60px;
+		color: white;
+	}
+
+	.TopicText {
+		font-size: 18px;
+	}
+
+	.TopicButton {
+	width: 16%;
+	}
+
+	.TopicButton:hover {
+		-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+	    filter: blur(2px);
+	    width: 15%;
+	}
+}
+
+
+/* ------------------------------ Album Section ----------------------------*/
+
+.owl-item img {
+   padding-right: 8px;
+}
+
+div#AlbumStart {
+	background: #000;
+}

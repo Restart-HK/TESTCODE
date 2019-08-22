@@ -10,6 +10,15 @@
 
 
 /* ------------------------------ Top Background Section ----------------------------*/
+hr.UnderLineB {
+  border-top: 2px solid black;
+  width: 60%;
+}
+hr.UnderLineW {
+  border-top: 2px solid white;
+  width: 60%;
+}
+
 div#TopicBanner {
 	width: 100%;
 	height: 100vh;
@@ -24,18 +33,20 @@ div#TopicBanner {
 }
 
 .Topic {
+	padding-top: 15%;
+}
+
+.Topic h1{
 	font-family: 'Black Ops One', cursive;
 	font-size: 80px;
 	color: white;
-	mix-blend-mode: difference; /*----透底-----*/
-	padding-top: 15%;
 }
+
 
 .TopicText {
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size: 26px;
 	color: white;
-	mix-blend-mode: difference; /*----透底-----*/
 }
 
 .TopicButton {
@@ -50,12 +61,19 @@ div#TopicBanner {
 
 @media (max-width: 768px){
 
+	hr.UnderLineW {
+	  border-top: 2px solid white;
+	  width: 90%;
+	}
+
 	.Topic {
+		padding-top: 35%;
+	}
+
+	.Topic h1{
 		font-family: 'Black Ops One', cursive;
 		font-size: 60px;
 		color: white;
-		mix-blend-mode: difference; /*----透底-----*/
-		padding-top: 35%;
 	}
 
 	.TopicButton {

@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+/*-----font-family: 'Black Ops One', cursive;------*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*-----font-family: 'Noto Sans TC', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+/*-----font-family: 'Alfa Slab One', cursive;------*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+/*-----font-family:'Ubuntu', sans-serif;------*/
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+hr.UnderLineB {
+  border-top: 2px solid black;
+  width: 60%;
+}
+hr.UnderLineW {
+  border-top: 2px solid white;
+  width: 60%;
+}
+
+div#TopicBanner {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background:  no-repeat linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/Banner/LinkBanner.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center ;
+}
+
+.Topic {
+	padding-top: 15%;
+}
+
+.Topic h1{
+	font-family: 'Black Ops One', cursive;
+	font-size: 80px;
+	color: white;
+}
+
+.TopicText {
+	font-family:'Ubuntu', sans-serif;
+	font-size: 21px;
+	color: white;
+}
+
+.TopicButton {
+	width: 7%;
+}
+
+.TopicButton:hover {
+	-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+    width: 6%;
+}
+
+@media (max-width: 768px){
+
+	hr.UnderLineW {
+	  border-top: 2px solid white;
+	  width: 90%;
+	}
+
+	.Topic {
+		padding-top: 35%;
+	}
+
+	.Topic h1{
+		font-family: 'Black Ops One', cursive;
+		font-size: 60px;
+		color: white;
+	}
+
+	.TopicText {
+		font-family:'Ubuntu', sans-serif;
+		font-size: 18px;
+		color: white;
+	}
+
+	.TopicButton {
+	width: 16%;
+	}
+
+	.TopicButton:hover {
+		-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+	    filter: blur(2px);
+	    width: 15%;
+	}
+}
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+
+div#Media_Tag {
+	background: black;
+	height: 10vh;
+}
+
+.Tag_Topic {
+
+	text-align: center;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #fff;
+}
+
+/* ------------------------------ Silder Section ----------------------------*/
+.ContactIcon {
+	font-size: 14px;
+}
+
+/* ------------------------------ Media Silder Section ----------------------------*/
+div#Media_Section {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: yellow;
+}
+div#Media_Section h1 {
+	font-size: 17px;
+	height: 65px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 10px;
+	color: #000;
+}
+div#Media_Section h2 {
+	font-size: 24px;
+	color: #000;
+}
+
+div#Media_Section .Silder-Layout {
+	max-width: 260px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+div#Media_Section .Silder-Layout img {
+	max-width: 260px;
+}
+
+/* ------------------------------ Organization Silder Section ----------------------------*/
+div#Organization_Section {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: black;
+}
+div#Organization_Section h1 {
+	font-size: 17px;
+	font-weight: bold;
+	height: 65px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+div#Organization_Section h2 {
+	font-size: 24px;
+	color: #fff;
+}
+
+div#Organization_Section .Silder-Layout {
+	max-width: 260px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 2px solid white;
+	text-align: center;
+}
+div#Organization_Section .Silder-Layout img {
+	max-width: 260px;
+}
+
+/* ------------------------------ Blogger Silder Section ----------------------------*/
+div#Blogger_Section {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: yellow;
+}
+div#Blogger_Section h1 {
+	font-size: 17px;
+	font-weight: bold;
+	height: 65px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 10px;
+	color: #000;
+}
+
+div#Blogger_Section h2 {
+	font-size: 24px;
+	color: #000;
+}
+
+div#Blogger_Section .Silder-Layout {
+	max-width: 260px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 2px solid black;
+	text-align: center;
+}
+div#Blogger_Section .Silder-Layout img {
+	max-width: 260px;
+}

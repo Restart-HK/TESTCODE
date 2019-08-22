@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+/*-----font-family: 'Black Ops One', cursive;------*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*-----font-family: 'Noto Sans TC', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+/*-----font-family: 'Alfa Slab One', cursive;------*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+/*-----font-family:'Ubuntu', sans-serif;------*/
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+hr.UnderLineB {
+  border-top: 2px solid black;
+  width: 60%;
+}
+hr.UnderLineW {
+  border-top: 2px solid white;
+  width: 60%;
+}
+
+div#TopicBanner {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background:  no-repeat linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/Banner/Regulation.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center ;
+}
+
+.Topic {
+	padding-top: 15%;
+}
+
+.Topic h1{
+	font-family: 'Black Ops One', cursive;
+	font-size: 80px;
+	color: white;
+}
+
+.TopicText {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 26px;
+	color: white;
+}
+
+div#TopicBanner .TagSize {
+	width: 76%;
+}
+
+div#TopicBanner .TagSize:hover{
+	filter:blur(1px);
+}
+
+div#TopicBanner .PaddingDown {
+	padding-bottom: 30px;
+}
+
+
+@media (max-width: 768px){
+
+	hr.UnderLineW {
+	  border-top: 2px solid white;
+	  width: 90%;
+	}
+
+	.Topic {
+		padding-top: 35%;
+	}
+
+	.Topic h1{
+		font-family: 'Black Ops One', cursive;
+		font-size: 65px;
+		color: white;
+	}
+
+	.TopicText {
+		font-size: 16px;
+	}
+
+	div#TopicBanner .TagSize {
+		width: 55%;
+	}
+
+}
+
+/* ------------------------------ Regulation  ----------------------------*/
+div#Regulation {
+		background: #000;
+}
+
+/* ------------------------------ BlogLayout  ----------------------------*/
+.BlogLayout {
+	text-align: left;
+	background: #000;
+}
+
+.BlogLayout h1{
+	font-family: 'Noto Sans TC', sans-serif;
+	padding-top: 30px;
+	color: #FFF;
+}
+
+.BlogLayout p{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+

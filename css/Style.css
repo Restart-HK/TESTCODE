@@ -59,19 +59,8 @@ div#HongKongersDiv .TopicButton:hover {
     filter: blur(2px);
 }
 
-div#HongKongersDiv .TopScrollButton {
-	animation: MoveUpDown 1.5s linear infinite;
-	width: 60px;
-	height: 60px;
-	left:0;
-	right: 0;
-	position: absolute;
-	margin: auto;
-}
-@keyframes MoveUpDown {
-	0%, 100% {bottom: 0;}
-	50% {bottom: 25px;}
-}
+
+
 
 @media (max-width: 768px){
 
@@ -98,10 +87,7 @@ div#HongKongersDiv .TopScrollButton {
 		padding-bottom: 10px;
 	}
 
-	div#HongKongersDiv .TopScrollButton {
-		width: 30px;
-		height: 30px;
-	}
+
 }
 
 
