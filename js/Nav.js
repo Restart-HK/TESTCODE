@@ -1,5 +1,6 @@
         new Mmenu(
             document.querySelector('#menu'), {
+                pageScroll: true,
                 extensions: ['theme-dark', 'shadow-page'],
                 iconPanels: true,
                 setSelected: true,
