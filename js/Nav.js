@@ -1,16 +1,17 @@
         new Mmenu(
             document.querySelector('#menu'), {
                 extensions: ['theme-dark', 'shadow-page'],
+                pageScroll: true,
                 iconPanels: true,
                 setSelected: true,
                 counters: true,
                 searchfield: {
-                    placeholder: 'Search menu items'
+                placeholder: 'Search menu items'
                 },
                 iconbar: {
                     add: true,
                     top: [
-                        '<a href="index.html"><span class="fa fa-home"></span></a>'
+                        '<a href=""><span class="fa fa-home"></span></a>'
                     ],
                     bottom: [
                         '<a href="https://t.me/joinchat/AAAAAFkB8-T-HrTijkOICA" target="_blank"><span class="fa fa-telegram"></span></a>',
@@ -42,11 +43,3 @@
                 }
             }
         );
-
-        document.addEventListener('click', (evnt) => {
-            let anchor = evnt.target.closest('a[href^="#/"]');
-            if (anchor) {
-                alert('Thank you for clicking, but that\'s a demo link.');
-                evnt.preventDefault();
-            }
-        });

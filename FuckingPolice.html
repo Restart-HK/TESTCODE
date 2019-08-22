@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>Strategic Map</title>
+	<title>Police Database</title>
 	<!------------------------------ CSS ------------------------------->
 	<link rel="stylesheet" type="text/css" href="FontAwesome/css/all.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
 	<!------------------------------ BODY CSS ------------------------------->
-	<link rel="stylesheet" type="text/css" href="css/StMap.css">
+	<link rel="stylesheet" type="text/css" href="css/FuckingPolice.css">
 	<link rel="stylesheet" type="text/css" href="css/Footer.css">
 	<!------------------------------ NAV CSS ------------------------------->
 	<link href="css/mmenu/mmenu.css" rel="stylesheet" />
@@ -18,6 +18,7 @@
 	<!------------------------------ JS ------------------------------->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src=	"js/Search.js"></script>
 
 </head>
 
@@ -144,12 +145,15 @@
 	<div id="TopicBanner">
 			<div class="Topic">
 				<hr class="UnderLineW">
-				<h1>STRATEGIC MAP</h1>
+				<h1>POLICE DATA</h1>
 				<hr class="UnderLineW">
 			</div>
 				
 			<div class="TopicText">
-				<b>- 有見警方之包圍模式日漸轉變，抗爭者必需了解各區之地形資料 -<br>- 封路之可能性，以及逃生路線等情況 -<br></b>
+				<b>香港警察「濫用職權及暴力」問題日益嚴重，由於監警會並沒有「正式調查權」<br>
+					而立法會內亦一直未能通過成立「警員操守資料庫」及「獨立調查委員會」<br>
+					有關警員暴行之資料每每隨著「網絡清洗」消失或難以尋回<br>
+					故此，於此處召集所有香港人網友共同協力，制作相關資料庫以免真相被紅色洪流埋沒<br><br></b>
 				<br>
 			</div>
 			<div>
@@ -163,100 +167,122 @@
 			</div>
 	</div>
 	<!------------------------------ BodyData ------------------------------->
-
-<!------------------------------ Location Icon ------------------------------->	
-	<div id="Location">
-		<div class="container" style="text-align: center; padding-top: 30px;">
-					<div class="row">
-						<br><br>
-						<!---------- 葵涌 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv1">
-							<a class="button"><img src="assets/img/Map/KwaiChung.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 馬鞍山 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv2">
-							<a class="button"><img src="assets/img/Map/maonshan.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 深水步 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv3">
-							<a class="button"><img src="assets/img/Map/shamshuipo.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 沙田 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv4">
-							<a class="button"><img src="assets/img/Map/shatin.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 黃大仙 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv5">
-							<a class="button"><img src="assets/img/Map/wongtaisin.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 元朗 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv6">
-							<a class="button"><img src="assets/img/Map/yuenlong.png" class="TapButton"></a>
-							</div>
-						</div>
+<!------------------------------ Banner ------------------------------->
+	<div id="PoPoBox">
+		<div class="container">
+			<br><br>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="PoPoIntro">
+						<h1><b>INTRO</b></h1>
+						<hr class="UnderLinePoPo">
+						<p>本頁面為透過連結<b>「老豆搵囝」、「HKCPGDB」、「香港編年史」</b>以方便大家係<b>「認人」、「有關資料」、「暴行」</b>上面進行<b>「搜尋」</b>。<br><b>RestartHK </b>亦會努力與相關人士協商合作，以求製作更完善方便既<b>「Database」</b>去進行一切既記錄。</p><br>
 					</div>
-
-					<div class="row">
-						<!---------- 大埔 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv7">
-							<a class="button"><img src="assets/img/Map/taipo.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 荃灣 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv8">
-							<a class="button"><img src="assets/img/Map/tsuenwan.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 北角 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv9">
-							<a class="button"><img src="assets/img/Map/northpoint.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 金鍾 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv10">
-							<a class="button"><img src="assets/img/Map/Admiralty.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 中環 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="showdiv11">
-							<a class="button"><img src="assets/img/Map/Central.png" class="TapButton"></a>
-							</div>
-						</div>
-						<!---------- 關閉 ---------->
-						<div class="col-md-2 col-4 AreaPaddingDown">
-							<div id="closediv">
-							<a class="button"><img src="assets/img/Map/close.png" class="TapButton"></a>
-							</div>
-						</div>
-					</div>				
+				<br><br>
+					<div class="PoPoIntro">
+						<h1><b>HOW TO USE</b></h1>
+						<hr class="UnderLinePoPo">
+						<p> - 於<b> RestartHK </b>頁面，可透過<b>「大頭」去確認「老豆搵仔」ID</b>，以及是否擁有其<b>「個人專案」</b>於<b>「香港編年史」</b>及<b>「HKCPGDB」</b>。</p>
+						<p> - 在<b>「已有專案」</b>位置，可於<b>「搜尋框」</b>搜尋<b>「ID / 姓名 / PC」</b>，確認「專案」資料庫面，前往相關資料庫網站即可查看。</p>
+						<p> - 點擊<b>「ID範圈」</b>(例: ID#1-#20),即可打開其<b>「大頭Slider」</b>,亦可選擇一次打開全部。</p>
+						<p> - 要查看<b>「未有專案」</b>之ID的更多資料，請<b>記錄ID</b>並前往<b>「老豆搵仔」</b>頁面進行搜尋，當中會有更多有關人物之相關資料。
+						</p><br>
+					</div>
+				<br><br>
+					<div class="PoPoIntro">
+						<h1><b>LINK</b></h1>
+						<hr class="UnderLinePoPo">
+						<a href="https://dadfindboy.github.io/" target="_blank">
+							<button class="btn">老豆搵仔</button></a>	
+						<a href="https://hyshk.xyz/" target="_blank">
+							<button class="btn">香港編年史</button></a>
+						<a href="https://www.hkcpgdb.com/" target="_blank">
+							<button class="btn">HKCPGDB</button></a>
+						<br>
+					</div>
+				</div>
+			</div>
 		</div>
+		<br><br><br><br>
 	</div>		
-<!------------------------------ Pop Up Div ------------------------------->	
-	<div id="div1" style="display:none">
-		<div class="KwaiChung">待開發中</div>
+<!------------------------------ 相片BAR ------------------------------->
+
+<!------------------------------ Search ------------------------------->
+	<div id="PoPoSearch" class="PoPoSearch">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-12">
+					<h1><b>FIND POPO</b></h1>
+					<hr class="UnderLinePoPo">
+					<input id="myInput" type="text" placeholder=" Input Search..">
+					<br><br>
+					<table>
+					  <thead>
+					  <tr>
+					    <th>老豆搵仔</th>
+					    <th>PC Number</th>
+					    <th>姓名</th>
+					    <th>資料庫</th>
+					  </tr>
+					  </thead>
+					  		<tbody id="myTable">
+
+					  			<tr>
+								<td>#15</td>
+								<td>PC2374</td>
+								<td>吳志華</td>
+								<td><a href="https://hyshk.xyz/tg/dfb-15" target="_blank" style="color:#FFF">香港編年史</a>
+								</td>
+								</tr>
+
+								<tr>
+								<td>#22</td>
+								<td>PC34681</td>
+								<td>張偉豪</td>
+								<td><a href="https://hyshk.xyz/tg/dfb-22" target="_blank" style="color:#FFF">香港編年史</a>
+								</td>
+								</tr>
+
+								<tr>
+								<td>#25</td>
+								<td>PC21304</td>
+								<td>鍾俊邦</td>
+								<td><a href="https://hyshk.xyz/tg/dfb-25" target="_blank" style="color:#FFF">香港編年史</a>
+								</td>
+								</tr>
+
+								<tr>
+								<td>#28</td>
+								<td>PC19092</td>
+								<td>梁芷翹</td>
+								<td><a href="https://hyshk.xyz/tg/dfb-28" target="_blank" style="color:#FFF">香港編年史</a>
+								</td>
+								</tr>
+
+					  			<tr>
+								<td>#78</td>
+								<td></td>
+								<td>王明進</td>
+								<td><a href="https://hyshk.xyz/tg/dfb-78" target="_blank" style="color:#FFF">香港編年史</a>
+								</td>
+								</tr>
+
+				  				<tr>
+								<td>#80</td>
+								<td></td>
+								<td>張沛聰</td>
+								<td><a href="https://hyshk.xyz/" target="_blank" style="color:#FFF">香港編年史</a>
+								</td>
+								</tr>
+								
+							</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div id="div2" style="display:none">
-		<div class="maonshan">待開發中</div>
-	</div>
-	<div id="div3" style="display:none">
-		<div class="shamshuipo">待開發中</div>
-	</div>
+
+
 
 		<!------------------------------ FOOTER ------------------------------->
 	<div id="Footer">
@@ -366,33 +392,13 @@
 	<script src="js/Nav.js"></script>
 	<!------------------------------ Script ------------------------------->
 	<script>
-	/* ------------------------ Scroll via Href ID--------------------------- */
+		/* ------------------------ Scroll via Href ID--------------------------- */
 		$('a[href*="#"]').on('click', function (e) {
 		    e.preventDefault();
 
 		    $('html, body').animate({
 		        scrollTop: $($(this).attr('href')).offset().top
 		    }, 500, 'linear');
-		});
-	/* ------------------------ Div Pop Up Control--------------------------- */
-		$(document).ready(function(){
-			$('#showdiv1').click(function(){
-			    $('div[id^=div]').hide();
-			    $('#div1').show();
-			});
-			$('#showdiv2').click(function(){
-			    $('div[id^=div]').hide();
-			    $('#div2').show();
-			});
-			$('#showdiv3').click(function(){
-			    $('div[id^=div]').hide();
-			    $('#div3').show();
-			});
-			$('#closediv').click(function(){
-			    $('#div1').hide();
-			    $('#div2').hide();
-			    $('#div3').hide();
-			});
 		});
 
 	</script>

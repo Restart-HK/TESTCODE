@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+/*-----font-family: 'Black Ops One', cursive;------*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*-----font-family: 'Noto Sans TC', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+/*-----font-family: 'Alfa Slab One', cursive;------*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+/*-----font-family:'Ubuntu', sans-serif;------*/
+
+
+/* ------------------------------ Top Background Section ----------------------------*/
+hr.UnderLineWT {
+  border-top: 2px solid white;
+  width: 60%;
+}
+hr.UnderLineW {
+  border-top: 1px solid white;
+  width: left 60%;
+}
+
+div#TopicBanner {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background:  no-repeat linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/Banner/Security.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center ;
+}
+
+.Topic {
+	padding-top: 15%;
+}
+
+.Topic h1{
+	font-family: 'Black Ops One', cursive;
+	font-size: 80px;
+	color: white;
+}
+
+
+.TopicText {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 26px;
+	color: white;
+}
+
+.TopicButton {
+	width: 7%;
+}
+
+.TopicButton:hover {
+	-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+    width: 6%;
+}
+
+@media (max-width: 768px){
+
+	hr.UnderLineWT {
+	  border-top: 2px solid white;
+	  width: 90%;
+	}
+
+	hr.UnderLineW {
+	  border-top: 1px solid white;
+	  width: left 90%;
+	}
+
+	.Topic {
+		padding-top: 35%;
+	}
+
+	.Topic h1{
+		font-family: 'Black Ops One', cursive;
+		font-size: 70px;
+		color: white;
+	}
+
+	.TopicText {
+		font-size: 16px;
+	}
+
+	.TopicButton {
+	width: 16%;
+	}
+
+	.TopicButton:hover {
+		-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+	    filter: blur(2px);
+	    width: 15%;
+	}
+}
+
+
+/* ------------------------------ AppTopic Section ----------------------------*/
+
+div#AppTopic {
+	background: black;
+	font-family: 'Noto Sans TC', sans-serif;
+    unicode-range: 'U+4E00-9FFF';
+}
+
+div#AppTopic .PaddingDown {
+	padding-bottom: 20px;
+}
+
+div#AppTopic .AppIcon {
+	width: 50px;
+	height: 50px;
+}
+
+div#AppTopic .btn {
+  background-color: #000;
+  border: none;
+  color: white;
+  width: 110px;
+  height: 100px;
+  padding: 10px 10px; 
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+div#AppTopic .btn:hover {
+  background-color: RoyalBlue;
+  color: black;
+}
+
+/* ------------------------------ AppBlog Section ----------------------------*/
+
+div#AppBlog {
+	background: black;
+	font-family: 'Noto Sans TC', sans-serif;
+    unicode-range: 'U+4E00-9FFF';
+}
+
+div#AppBlog .AppBlogLayout {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div#AppBlog .AppBlogLayout h1{
+	color: white;
+}
+
+div#AppBlog .AppBlogLayout h2{
+	color: #F8FAFA;
+}
+
+div#AppBlog .AppBlogLayout p{
+	color: #ECECE7;
+}
+
+div#AppBlog .AppBlogLayout i{
+	color: #FFFF00;
+}

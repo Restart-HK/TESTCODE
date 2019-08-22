@@ -9,6 +9,7 @@
 /*-----font-family:'Ubuntu', sans-serif;------*/
 
 
+
 /* ------------------------------ Top Background Section ----------------------------*/
 div#HongKongersDiv {
 	width: 100%;
@@ -68,12 +69,19 @@ div#HongKongersDiv .TopicButton:hover {
 		text-align: left;
 	}
 
+	div#HongKongersDiv {
+		background: no-repeat center center fixed linear-gradient(
+		      rgba(0, 0, 0, 0.35), 
+		      rgba(0, 0, 0, 0.35)
+		    ), url(../assets/img/Banner/HongKongers.jpg);
+	}
+
 	div#HongKongersDiv .HongKongers {
 		font-family: 'Black Ops One', cursive;
 		font-size: 42px;
 		color: white;'
 		mix-blend-mode: difference; /*----透底-----*/
-		padding-top: 15%;
+		padding-top: 35%;
 	}
 
 	div#HongKongersDiv .TopTyped {
