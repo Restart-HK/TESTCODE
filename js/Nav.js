@@ -11,7 +11,7 @@
                 iconbar: {
                     add: true,
                     top: [
-                        '<a href="index.html"><span class="fa fa-home"></span></a>'
+                        '<a href="##/"><span class="fa fa-home"></span></a>'
                     ],
                     bottom: [
                         '<a href="https://t.me/joinchat/AAAAAFkB8-T-HrTijkOICA" target="_blank"><span class="fa fa-telegram"></span></a>',
