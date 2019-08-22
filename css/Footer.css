@@ -15,7 +15,7 @@ div#Footer {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.85), 
       rgba(0, 0, 0, 0.85)
-    ), url(../assets/img/Banner/footerbanner.png);
+    ), url(../assets/img/Banner/FooterBanner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

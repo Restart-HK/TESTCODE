@@ -70,6 +70,13 @@ div#TopicBanner {
 	  width: 90%;
 	}
 
+	div#TopicBanner {
+		background:  no-repeat linear-gradient(
+		      rgba(0, 0, 0, 0.75), 
+		      rgba(0, 0, 0, 0.75)
+		    ), url(../assets/img/Banner/FuckPoPoMB.jpg);
+	}
+
 	.Topic {
 		padding-top: 25%;
 	}
